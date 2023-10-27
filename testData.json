@@ -1,17 +1,122 @@
 [
   {
-    "title": "Сходить в кофейню\nCraft, сделать фото, \nкупить кофе",
-    "points": 4,
+    "title": "Посетить выставку современного искусства",
+    "points": 6,
+    "countOfMembers": 15
+  },
+  {
+    "title": "Прогулка на яхте по заливу",
+    "points": 12,
+    "countOfMembers": 8
+  },
+  {
+    "title": "Помочь волонтерам убирать парк",
+    "points": 7,
+    "countOfMembers": 20
+  },
+  {
+    "title": "Посмотреть концерт любимой группы",
+    "points": 8,
+    "countOfMembers": 12
+  },
+  {
+    "title": "Соревнования по видеоиграм",
+    "points": 5,
+    "countOfMembers": 30
+  },
+  {
+    "title": "Посетить мастер-класс по кулинарии",
+    "points": 9,
+    "countOfMembers": 18
+  },
+  {
+    "title": "Провести день на пикнике",
+    "points": 11,
+    "countOfMembers": 25
+  },
+  {
+    "title": "Подняться на гору с видом на город",
+    "points": 10,
+    "countOfMembers": 6
+  },
+  {
+    "title": "Сделать 20 минутные утренние пробежки",
+    "points": 7,
+    "countOfMembers": 40
+  },
+  {
+    "title": "Помочь в строительстве детской площадки",
+    "points": 8,
+    "countOfMembers": 15
+  },
+  {
+    "title": "Провести вечер с друзьями в кино",
+    "points": 6,
     "countOfMembers": 10
   },
   {
-    "title": "Пойти на общий \nсубботник",
+    "title": "Подарить цветы бабушке",
+    "points": 3,
+    "countOfMembers": 5
+  },
+  {
+    "title": "Поучаствовать в марафоне",
+    "points": 12,
+    "countOfMembers": 50
+  },
+  {
+    "title": "Провести мастер-класс по рисованию",
+    "points": 9,
+    "countOfMembers": 12
+  },
+  {
+    "title": "Помочь в приюте для животных",
+    "points": 7,
+    "countOfMembers": 15
+  },
+  {
+    "title": "Сходить в парк аттракционов",
     "points": 10,
+    "countOfMembers": 8
+  },
+  {
+    "title": "Устроить вечеринку на даче",
+    "points": 8,
+    "countOfMembers": 20
+  },
+  {
+    "title": "Собрать друзей для футбольного матча",
+    "points": 6,
+    "countOfMembers": 22
+  },
+  {
+    "title": "Пойти на концерт классической музыки",
+    "points": 9,
+    "countOfMembers": 10
+  },
+  {
+    "title": "Устроить пикник на берегу реки",
+    "points": 11,
+    "countOfMembers": 16
+  },
+  {
+    "title": "Посмотреть закат на пляже",
+    "points": 5,
+    "countOfMembers": 12
+  },
+  {
+    "title": "Собрать вещи для благотворительности",
+    "points": 4,
+    "countOfMembers": 7
+  },
+  {
+    "title": "Сделать подарок для близкого человека",
+    "points": 3,
     "countOfMembers": 4
   },
   {
-  "title": "Сделать 10 отжиманий",
-  "points": 8,
-  "countOfMembers": 24
-}
+    "title": "Помочь старшим соседям",
+    "points": 5,
+    "countOfMembers": 9
+  }
 ]
