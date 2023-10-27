@@ -2,7 +2,13 @@ import './ExploreContainer.css';
 import {
     IonSearchbar,
     IonCard,
-    IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent
+    IonCardHeader,
+    IonCardTitle,
+    IonCardSubtitle,
+    IonCardContent,
+    RefresherEventDetail,
+    IonRefresher,
+    IonRefresherContent
 } from "@ionic/react";
 import React, {useEffect, useState} from "react";
 import PeopleImg from "../assets/peoples.png"
@@ -33,10 +39,24 @@ const ExploreContainer: React.FC<ContainerProps> = ({ name }) => {
         setResults(data.filter((item) => item.title.toLowerCase().indexOf(query.toLowerCase()) > -1));
     };
 
+    function handleRefresh(event: CustomEvent<RefresherEventDetail>) {
+        setTimeout(() => {
+            axios.get(URL).then((res) => {
+                setData([...res.data]);
+                setResults([...res.data]);
+                event.detail.complete();
+
+            });
+        }, 2000);
+    }
+
 
 
   return (
     <div className="container">
+        <IonRefresher slot="fixed" onIonRefresh={handleRefresh}>
+            <IonRefresherContent></IonRefresherContent>
+        </IonRefresher>
         <IonSearchbar debounce={500} onIonInput={(ev) => handleInput(ev)} className="search-bar"></IonSearchbar>
 
         <div className="card-block">

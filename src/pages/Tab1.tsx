@@ -10,6 +10,9 @@ const Tab1: React.FC = () => {
         <IonToolbar>
           <IonTitle>Challenges</IonTitle>
         </IonToolbar>
+          <IonToolbar>
+              <IonTitle>Pull to Refresh</IonTitle>
+          </IonToolbar>
 
       </IonHeader>
       <IonContent fullscreen>
