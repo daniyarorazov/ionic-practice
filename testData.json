@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Сходить в кофейню\nCraft, сделать фото, \nкупить кофе",
+    "points": 4,
+    "countOfMembers": 10
+  },
+  {
+    "title": "Пойти на общий \nсубботник",
+    "points": 10,
+    "countOfMembers": 4
+  },
+  {
+  "title": "Сделать 10 отжиманий",
+  "points": 8,
+  "countOfMembers": 24
+}
+]
