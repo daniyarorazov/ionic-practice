@@ -33,6 +33,7 @@ import '@ionic/react/css/display.css';
 
 /* Theme variables */
 import './theme/variables.css';
+import ChallengePage from "./pages/ChallengePage";
 
 setupIonicReact({
   rippleEffect: false,
@@ -42,6 +43,11 @@ setupIonicReact({
 const App: React.FC = () => (
   <IonApp>
     <IonReactRouter>
+      <IonRouterOutlet>
+        <Route path="/challenge/:id">
+          <ChallengePage />
+        </Route>
+      </IonRouterOutlet>
       <IonTabs>
         <IonRouterOutlet>
           <Route exact path="/tab1">

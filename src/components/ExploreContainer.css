@@ -64,12 +64,12 @@
 }
 
 .container .card-block ion-card ion-card-subtitle {
-    display: flex;
-    font-size: 14px;
-    line-height: 18px;
-    color: #fff;
-    margin-bottom: 10px;
-    font-weight: 600;
+  display: flex;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .container .card-block ion-card span {
